@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website of Md. Abdul Kader</title>
-    
+
     <script src="https://kit.fontawesome.com/5862eaaa58.js"></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,26 +14,142 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
     <header id="header">
-        <div class="logo"><a href="#portfolio"><h1><i class="fab fa-accusoft"></i>Portfolio </h1></a></div>
+        <div class="logo"><a href="#work"><h1><i class="fab fa-accusoft"></i>Portfolio </h1></a></div>
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#work">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
+            <span></span>
         </label>
-      </header>
+    </header>
 
-      <section class="sec"><h1>hello</h1></section>
+    <div class="margin-bottom"></div>
+
+    <!-- This is my about section -->
+    <section id="about-me">
+        <div class="row">
+            <div class="col-md-half">
+                <h2 class="about-title">HELLO, I'M</h2>
+                <h2 class="about-title"><span>MD. ABDUL KADER</span></h2>
+                <p>A full stack web developer</p>
+                <p> from Dhaka, Bangladesh</p>
+
+                <a href="https://www.linkedin.com/in/md-abdul-kader-joni-852871202/" target="_blank"><button
+                    class="hire-btn">Hire Me</button></a>
+            </div>
+
+            <div class="col-md-half">
+                <img src="images/myprofile.png" alt="My profile picture">
+            </div>
+        </div>
+
+        <div class="row" id="about-second-row">
+            <div class="col-md-half">
+                <img src="images/myprofile2.png" alt="My profile picture">
+            </div>
+            <div class="col-md-half">
+                <h2 id="about">ABOUT</h2>
+                <p>Hey, my name is <span><b>Md. Abdul Kader</b></span>. I am a student. Right now I am studying Computer Science & Engineering at Primeasia University, Dhaka. Another of my identities is I am a full stack developer. My job is to create and develop any kind of website for you using HTML, CSS, JAVASCRIPT, REACT, NODEJS.</p><br>
+                <a href="#"><button class="hire-btn"><i class="fas fa-download"></i>Download CV</button></a>
+            </div>
+        </div>
+
+        
+    </section>
+
+
+
     
+    <!-- This is my website demo images section -->
+    <section class="work" id="work">
+        <h2 class="title"><span>LATEST</span> WORKING PROJECTS</h2>
+        <div class="row" id="row">
+            <div class="col-md-4">
+                <img src="images/image1.png" alt="Gym website image">
+                <h3>Power-x-gym (gym website)</h3>
+                <p>Regular exercise and physical activity promotes strong muscles and bones. It improves respiratory, cardiovascular health, and overall health. Staying active can also help you maintain a healthy weight.</p>
+            </div>
+    
+            <div class="col-md-4">
+                <img src="images/image2.png" alt="Agency website image">
+                <h3>Creative Agency</h3>
+                <p>Without agency, one cannot act. We become paralyzed through fear, lack of jurisdiction, or the necessary ownership. Without agency, we cannot develop mastery, autonomy, or purpose.</p>
+            </div>
+    
+            <div class="col-md-4">
+                <img src="images/image3.png" alt="Music website image">
+                <h3>Hard Rock Music</h3>
+                <p>Hard rock or heavy rock is a loosely defined subgenre of rock music typified by a heavy use of aggressive vocals, electric guitars, bass guitar, and drums with keyboards.</p>
+            </div>
+        </div>
+            
+        <div class="more-btn-box">
+            <a href="#"><button class="hire-btn">See More <i class="fas fa-greater-than"></i></button></a>
+        </div>
+    </section>
+
+
+        <!-- This section is about the services I provide -->
+    <section class="services" id="services">
+        <h1 class="title">My Services</h1>
+        <div class="row" id="row">
+            <div class="col-md-4">
+                <h2>Online Strategy</h2>
+                <i class="fab fa-angellist"></i>
+                <p>Online marketing is the practice of leveraging web-based channels to spread a message about a company's brand, products, or services to its potential customers.</p>
+            </div>
+    
+            <div class="col-md-4">
+                <h2>Design & Development</h2>
+                <i class="fab fa-medapps"></i>
+                <p>The design and development process should examine all the potential risks and hurdles you will need to overcome to get the product to market. It involves defining the specification</p>
+            </div>
+    
+            <div class="col-md-4">
+                <h2>Mobile & Apps</h2>
+                <i class="fas fa-mobile-alt"></i>
+                <p>App Development refers to the creation of computer applications for use on mobile devices such as tablets, smartphones and smart watches.</p>
+    
+            </div>
+        </div>
+    </section>
+
+      <!-- This is my contact information and chat option section -->
+      <div class="chat-section" id="contact">
+
+        <div class="chat-btn">
+            <h2 class="title">WORK INQUIRY</h2>
+            <a href="https://www.facebook.com/abd.joni.9" target="_blank"><button class="hire-btn">Let's Chat</button></a>
+        </div>
+    
+        <div class="contact-info" id="chat">
+            <p>STAY CONNECTED</p> 
+            <p><a href="mailto:mdjoniemail@gmail.com"><strong>mdjoniemail@gmail.com</strong></a></p> 
+            <a href="https://www.facebook.com/abd.joni.9" target="_blank"><i class="fab fa-facebook-square" target="_blank"></i></a>
+            <a href="https://www.instagram.com/abdjoni/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+    
+            <a href="https://www.youtube.com/channel/UCStj-ORBZ7TGK1FwtGAUgbQ" target="_blank"><i class="fab fa-youtube"></i></a>
+
+            <a href="https://github.com/mdabdulkaderjoni" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+
+    </div>
+
+
+    <footer><small>&copy; Copyright 2021, Md. Abdul Kader. All Rights Reserved.</small></footer> 
+
+
 </body>
+
 </html>
